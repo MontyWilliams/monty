@@ -1,10 +1,10 @@
 #include "monty.h"
 /**
- * push - adds a node to the stack
+ * zero_push - adds a node to the stack
  * @stack: Pointer to the stack
  * @line_number: The line count from main
  */
-void push(stack_t **stack, unsigned int line_number)
+void zero_push(stack_t **stack, unsigned int line_number)
 {
 	stack_t *newnode = malloc(sizeof(stack_t));
 	int y = atoi(arg);
